@@ -26,5 +26,9 @@ index.html
 </body>
 ~~~
 
-## 부트스트랩 내의 예제 적용하기
-* 다운받은 부트스트랩 소스파일의 
+## 부트스트랩 내의 예제 적용하기 (https://getbootstrap.com/docs/4.4/examples/)
+* static디렉토리에 bootstrap_site_examples디렉토리를 생성한다. 이 디렉토리에 부트스트랩 기본예제 관련 정적파일들이 추가된다.
+* 다운받은 부트스트랩 소스파일의 C:\bootstrap-4.4.1\site\docs\4.4 경로의 assets디렉토리를 static디렉토리에 추가한다.
+* C:\Downloads\bootstrap-4.4.1\site\docs\4.4\examples 폴더 내에 예제별 디렉토리가 있다. 각 예제의 디렉토리에 있는 css 혹은 js파일을 static/bootstrap_site_examples디렉토리에 예제별 디렉토리 이름을 똑같이 생성해서 추가한다. (예를들어 checkout디렉토리에 있는 form-validation.css와 form-validation.js는 장고 프로젝트의 static 디렉토리 이하 checkout디렉토리에 복사하였다.)
+* 각 예제 디렉토리(C:\Downloads\bootstrap-4.4.1\site\docs\4.4\examples)에 있는 html파일들은 장고 프로젝트의 templates에 추가하였다.
+* 장고 프로젝트의 html파일들이 정적파일들을 참고할 수 있도록 html코드를 수정함.
